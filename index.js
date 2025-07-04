@@ -45,6 +45,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
     function formatValueStabilizer(amount, unit) {
       return amount >= 1000 ? (amount / 1000).toFixed(0) + ' ' + unit : Number(amount).toFixed(0) + ' ' + (unit === 'KL' ? 'L' : unit);
     }
+
   
     function calcPh() {
   const acidDemandTable = {
