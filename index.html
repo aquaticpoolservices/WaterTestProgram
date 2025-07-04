@@ -9,8 +9,22 @@
 </head>
 <body>
 
-    <h1>H2OCheck</h1>
-    <p>Please test your water using a test strip or a water test kit. Once you have tested the water, enter the information in the fields below to get detailed step by step instructions on rectifying chemical levels. </p>
+     <h1>ChemTest</h1>
+
+    <div class="header">  
+        <hr>
+        <p>Please test your water using a test strip or a water test kit.</p>
+        <p>Once you have tested the water, enter the information in the fields below to get detailed step by step instructions on rectifying water chemistry. </p>
+        <p> Note: Volume is mesured in 1,000 liters.</p>
+        <p>
+            <ul>
+                <li>1,000L sould be entered as 1. <br></li>
+                <li>10,000L entered as 10, <br> </li>
+                <li>100,000L as 100</p> </li>
+            </ul>
+        </p>
+    </div>
+    <hr>
 
     <form id="form" method="post">
         <div class="container">
@@ -58,8 +72,8 @@
     </form>
     <br>
     <div>        
-        <button id="printResults" class="grids">Print Page</button>
-        <button id="newTest" class="grids">New Test</button>
+        <button id="printResults" class="grids action">Print Page</button>
+        <button id="newTest" class="grids action">New Test</button>
     </div>
 
     <div class="results">
