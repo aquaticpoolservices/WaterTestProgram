@@ -42,12 +42,12 @@ option{
     font-size: 1.2em;
     font-weight: normal;
     color: white;
-    background-color: black;
+    background-color: darkblue;
     border: none;
 }
 #btn:hover{
     cursor: pointer;
-    background-color: gray;
+    background-color: blue;
     color: white;
 }
 .grids{
@@ -55,6 +55,9 @@ option{
 }
 h1, p{
     font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: darkblue;
 }
 @media print {
     #printResults {
@@ -66,8 +69,26 @@ h1, p{
     #btn {
         display: none;
     }
+    #form {
+        width: 95vw;
+    }
+    .header {
+        display: none;
+    }
 }
 .results {
     font-size: .8em;
     margin-top: .5em;
+}
+.action {
+    color: white;
+    background-color: darkblue;
+}
+.action:hover {
+    background-color: blue;
+    color: white;
+}
+
+form {
+    width: 56vw;
 }
